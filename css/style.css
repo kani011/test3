@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Sunflower:wght@500;700&display=swap');
+
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+h1,h2,h3,h4,h5 ,.logo-font {
+    font-family: "Sunflower", sans-serif;
+}
+
+.banner {
+    background-image: url(../images/card-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.contact {
+    background-image: url(../images/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav-link:hover,
+.nav-link.active {
+    color: blue !important;
+    font-weight: bold;
+}
